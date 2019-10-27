@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>SWAPIAPI</title>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+    <div>
+        <h1>API SWAPI TIME</h1>
+        <button id="buttonYoda">Découvre le personnage mysthère</button>
+        <p id="characterYoda">Le nom de ce personnage est <span id="nameYoda">....</span> !</p>
+        <button id="buttonTwoSpecies">2 personnages de chaque espèce</button>
+       <div>
+           <ul id="result"></ul>
+       </div>
+       <br>
+       <button id="buttonHumanSize">Découvre la somme des tailles de tous les humains est</button>
+       <p>la somme de tailles des humains est: <span id="sizeSum"></span></p>
+       <button id="buttonAllInfosHuman">Les infos</button>
+       <div>
+           <table id="infosHuman">
+               <tr id="name"></tr>
+               <tr id="size"></tr>
+               <tr id="mass"></tr>
+               <tr id="movies"></tr>
+               <tr id="planet"></tr>
+
+           </table>
+       </div>
+
+    </div>
+       <script src="../js/index.js"></script>
+</body>
+</html>
